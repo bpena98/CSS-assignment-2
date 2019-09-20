@@ -4,8 +4,8 @@
 /* you may add to or change the body rule */
 body {
     font-family: sans-serif;
-    color: #fff;
-    background: #000;
+    color: #000;
+    background: #fff;
     margin: 0;
 }
 img {
@@ -15,31 +15,23 @@ img {
 
 #cougar {
   background: #B26219;
-  color: #000000;
+
 }
 
 #lion {
   background: #FFD5AE;
-  color: #000000;
 
 }
 
 #tiger {
 background: #FFBD82;
-color: #000000;
-}
-
-
-img {
-max-width: 100%;
 }
 
 article {
   padding-bottom: 2rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  justify-content: center;
+  padding-top: 1.5rem;
 }
 
 section{
@@ -49,22 +41,22 @@ max-width: 600px;
 }
 
 section.text {
-background: #f0f0f0;
-padding: 1rem 1.5rem;
+padding: 0 1.5rem;
 font-size: 14pt;
-line-height: 2;
+line-height: 2rem;
+margin-left: 1.5rem;
 }
 
-h2{
-  text-align:center;
-}
+
 
 header {
   display: flex;
   justify-content: space-between;
   background: #333;
-  padding: 0 1rem;
+  color: #fff;
+  padding: 1.5rem;
 }
+
 
 ul {
   display: flex;
@@ -75,14 +67,19 @@ ul {
 ul li{
   margin: 0;
   margin-left: 1rem;
-  background: #000;
   padding: 1rem;
+  text-transform: uppercase;
+}
+
+.photo{
+margin-left: 1.5rem;
+
 }
 
 footer {
   text-align: center;
   background: #333;
-  margin: 0rem;
+  color: #fff;
   padding: 1rem;
 }
 /* ----- SUGGESTED COLORS -----
@@ -113,4 +110,8 @@ a {
 }
 a:hover {
     color: #82E8FF;
+}
+
+nav a{
+  text-decoration: none;
 }
